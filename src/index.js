@@ -15,6 +15,8 @@ app.get('/produtos', (req,res) => {
 })
 app.get()// futura rota de busca com LIKE
 
+app.get() // filtrar produtos pelo preço
+
 app.get('/produtos/:id', (req,res) =>{
 
   const {id} = req.params
