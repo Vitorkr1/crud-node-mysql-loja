@@ -13,7 +13,7 @@ app.get('/produtos', (req,res) => {
     res.status(200).json(result)
   })
 })
-app.get()
+app.get()// futura rota de busca com LIKE
 
 app.get('/produtos/:id', (req,res) =>{
 
